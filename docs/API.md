@@ -38,4 +38,4 @@ This module runs perfectly in node.js and browsers
 
 #### Defined in
 
-[rsa.ts:44](https://github.com/miguelangelro/RSA_module/blob/3228776/src/ts/rsa.ts#L44)
+[rsa.ts:44](https://github.com/miguelangelro/RSA_module/blob/e6ccd76/src/ts/rsa.ts#L44)
