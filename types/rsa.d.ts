@@ -17,4 +17,11 @@ export interface rsaKeyPair {
     privateKey: RsaPrivateKey;
 }
 export declare const generateKeys: (bitLength: number) => Promise<rsaKeyPair>;
+export declare class Cegar {
+    r: bigint;
+    pubKey: RsaPublicKey;
+    constructor(pubKey: RsaPublicKey);
+    cegarMensaje(msg: bigint): bigint;
+    descegarMensaje(blindedSignature: bigint): bigint;
+}
 //# sourceMappingURL=rsa.d.ts.map

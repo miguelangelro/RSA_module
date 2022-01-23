@@ -6,5 +6,5 @@
  *
  * @packageDocumentation
  */
-export { rsaKeyPair, RsaPublicKey, RsaPrivateKey, generateKeys } from './rsa';
+export { rsaKeyPair, RsaPublicKey, RsaPrivateKey, Cegar, generateKeys } from './rsa';
 //# sourceMappingURL=index.d.ts.map

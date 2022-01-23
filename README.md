@@ -80,33 +80,33 @@ The `README.md` file is automatically generated from the `src/docs/index.md` fil
 - `npm run test:node`. Runs all the unit tests (`src/**/*.spec.ts` and `test/**/*.ts`) in Node.js.
 - `npm run watch`. Likely to be the default script during development. Tests are automatically reexecuted whenever a test or source file changes.
 
-# @my-scope/my-package-name
+# my-rsa
 
 Your package description
 
 ## Usage
 
-`@my-scope/my-package-name` can be imported to your project with `npm`:
+`my-rsa` can be imported to your project with `npm`:
 
 ```console
-npm install @my-scope/my-package-name
+npm install my-rsa
 ```
 
 Then either require (Node.js CJS):
 
 ```javascript
-const myPackageName = require('@my-scope/my-package-name')
+const myRsa = require('my-rsa')
 ```
 
 or import (JavaScript ES module):
 
 ```javascript
-import * as myPackageName from '@my-scope/my-package-name'
+import * as myRsa from 'my-rsa'
 ```
 
 The appropriate version for browser or node is automatically exported.
 
-You can also download the IIFE bundle, the ESM bundle or the UMD bundle and manually add it to your project, or, if you have already installed `@my-scope/my-package-name` in your project, just get the bundles from `node_modules/@my-scope/my-package-name/dist/bundles/`.
+You can also download the IIFE bundle, the ESM bundle or the UMD bundle and manually add it to your project, or, if you have already installed `my-rsa` in your project, just get the bundles from `node_modules/my-rsa/dist/bundles/`.
 
 An example of usage could be:
 

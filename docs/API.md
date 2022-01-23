@@ -1,4 +1,4 @@
-# @my-scope/my-package-name - v0.9.4
+# my-rsa - v0.9.4
 
 My module description. Please update with your module data.
 
@@ -9,6 +9,7 @@ This module runs perfectly in node.js and browsers
 
 ### Classes
 
+- [Cegar](classes/Cegar.md)
 - [RsaPrivateKey](classes/RsaPrivateKey.md)
 - [RsaPublicKey](classes/RsaPublicKey.md)
 
@@ -38,4 +39,4 @@ This module runs perfectly in node.js and browsers
 
 #### Defined in
 
-[rsa.ts:44](https://github.com/miguelangelro/RSA_module/blob/e6ccd76/src/ts/rsa.ts#L44)
+[rsa.ts:44](https://github.com/miguelangelro/RSA_module/blob/d296724/src/ts/rsa.ts#L44)

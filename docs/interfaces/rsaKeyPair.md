@@ -15,7 +15,7 @@
 
 #### Defined in
 
-[rsa.ts:41](https://github.com/miguelangelro/RSA_module/blob/e6ccd76/src/ts/rsa.ts#L41)
+[rsa.ts:41](https://github.com/miguelangelro/RSA_module/blob/d296724/src/ts/rsa.ts#L41)
 
 ___
 
@@ -25,4 +25,4 @@ ___
 
 #### Defined in
 
-[rsa.ts:40](https://github.com/miguelangelro/RSA_module/blob/e6ccd76/src/ts/rsa.ts#L40)
+[rsa.ts:40](https://github.com/miguelangelro/RSA_module/blob/d296724/src/ts/rsa.ts#L40)

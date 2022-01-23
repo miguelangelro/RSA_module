@@ -63,22 +63,21 @@ export const generateKeys = async function (bitLength: number): Promise<rsaKeyPa
   }
 }
 
-export  class Cegar {
-  r: bigint;
-  pubKey: RsaPublicKey;
+export class Cegar {
+  r: bigint
+  pubKey: RsaPublicKey
 
-
-  constructor(pubKey: RsaPublicKey) {
-      this.pubKey = pubKey;
-      this.r = bcu.randBetween(this.pubKey.n);
+  constructor (pubKey: RsaPublicKey) {
+    this.pubKey = pubKey
+    this.r = bcu.randBetween(this.pubKey.n)
   }
 
   cegarMensaje (msg: bigint): bigint {
-      const bm: bigint = ( msg * (this.pubKey.encrypt(this.r) as bigint) ) % this.pubKey.n;
-      return bm;
+    const bm: bigint = (msg * (this.pubKey.encrypt(this.r))) % this.pubKey.n
+    return bm
   }
 
   descegarMensaje (blindedSignature: bigint): bigint {
-      return (blindedSignature * bcu.modInv(this.r, this.pubKey.n) % this.pubKey.n);
+    return (blindedSignature * bcu.modInv(this.r, this.pubKey.n) % this.pubKey.n)
   }
 }
